@@ -1,0 +1,6 @@
+**/images/
+**/training-*
+**/model-ckpt
+**/ssdlite-mobilenet
+**/pycocotools/
+**/*.record-*
