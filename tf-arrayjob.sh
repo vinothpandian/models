@@ -13,13 +13,13 @@
 ### Request the time you need for execution in minutes
 ### The format for the parameter is: [hour:]minute,
 ### that means for 80 minutes you could also use this: 1:20
-#BSUB -W "9:30"
+#BSUB -W "1:59"
 
 ### Request memory you need for your job in TOTAL in MB
 #BSUB -M "16384"
 
-# GPU run
-#BSUB -q gpu
+### GPU run
+#BSUB -a gpu
 #BSUB -gpu -
 #BSUB -R pascal
 
