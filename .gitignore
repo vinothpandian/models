@@ -96,3 +96,4 @@ ENV/
 
 samples/outreach/blogs/segmentation_blogpost/carvana-image-masking-challenge/
 **/pycocotools
+ssdlite-mobilenet-trained
