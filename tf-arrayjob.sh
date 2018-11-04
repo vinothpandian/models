@@ -13,13 +13,13 @@
 ### Request the time you need for execution in minutes
 ### The format for the parameter is: [hour:]minute,
 ### that means for 80 minutes you could also use this: 1:20
-#BSUB -W "10:59"
+#BSUB -W "23:59"
 
 ### Request memory you need for your job in TOTAL in MB
-#BSUB -M "24576"
+#BSUB -M 32768
 
 ### GPU run
-#BSUB -gpu -
+#BSUB -gpu "num=1"
 #BSUB -R pascal
 
 ### Change to the work directory
@@ -39,7 +39,7 @@ case "$LSB_JOBINDEX" in
         python model_main.py --alsologtostderr --pipeline_config_path=pipeline-faster.config --model_dir=training-faster-rcnn-nas
     ;;
     2)
-        python model_main.py --alsologtostderr --pipeline_config_path=pipeline-ssdlite.config --model_dir=training-ssdlite-mobilenet
+        python model_main.py --alsologtostderr --pipeline_config_path=training-ssdlite-mobilenet/pipeline.config --model_dir=training-ssdlite-mobilenet
     ;;
     *)
         python main_model.py --helpfull

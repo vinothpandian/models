@@ -1,0 +1,95 @@
+item {
+  id:1
+  name:'alert'
+}
+
+item {
+  id:2
+  name:'button'
+}
+
+item {
+  id:3
+  name:'card'
+}
+
+item {
+  id:4
+  name:'checkbox_off'
+}
+
+item {
+  id:5
+  name:'checkbox_on'
+}
+
+item {
+  id:6
+  name:'chip'
+}
+
+item {
+  id:7
+  name:'data_table'
+}
+
+item {
+  id:8
+  name:'drop_down_button'
+}
+
+item {
+  id:9
+  name:'floating_action_button'
+}
+
+item {
+  id:10
+  name:'grid_list'
+}
+
+item {
+  id:11
+  name:'menu'
+}
+
+item {
+  id:12
+  name:'radio_button_off'
+}
+
+item {
+  id:13
+  name:'radio_button_on'
+}
+
+item {
+  id:14
+  name:'slider'
+}
+
+item {
+  id:15
+  name:'switch_button_off'
+}
+
+item {
+  id:16
+  name:'switch_button_on'
+}
+
+item {
+  id:17
+  name:'text_area'
+}
+
+item {
+  id:18
+  name:'text_field'
+}
+
+item {
+  id:19
+  name:'tooltip'
+}
+
